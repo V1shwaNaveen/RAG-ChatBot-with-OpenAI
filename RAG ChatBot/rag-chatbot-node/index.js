@@ -26,6 +26,7 @@ app.post("/chat", async (req, res) => {
         { role: "user", content: userMessage },
       ],
     });
+    //wwn
 
     const botReply = completion.choices[0].message.content;
     res.json({ reply: botReply });
