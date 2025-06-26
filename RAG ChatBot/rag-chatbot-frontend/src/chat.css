@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Chat bubbles */
+.chat-box {
+  @apply p-3 rounded-lg max-w-xs;
+}
+
+.chat-user {
+  @apply bg-green-200 dark:bg-gray-700 dark:text-green-200 text-right;
+}
+
+.chat-bot {
+  @apply bg-gray-200 dark:bg-gray-700 dark:text-white text-left;
+}
